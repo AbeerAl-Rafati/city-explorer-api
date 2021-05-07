@@ -53,12 +53,15 @@ class Forcast {
 app.get('/movies', function (req, res) {
 
   try {
-    const moviesUrl = `https://api.themoviedb.org/3/movie/550?api_key=${REACT_APP_MOVIES_KEY}&city=${req.query.query}`;
+    const moviesUrl = `https://api.themoviedb.org/3/search/movie?api_key=${REACT_APP_MOVIES_KEY}&query=${req.query.query}&limit=8`;
+
 
     superagent.get(moviesUrl).then(movie => {
-      const arrOfData = movie.body.data.map(info => new Movies(info));
+      const arrOfData = movie.body.results.map(info => new Movies(info));
       res.send(arrOfData);
-      console.log(moviesUrl);
+      console.log(arrOfData);
+      // console.log(req.query.query);
+      // console.log(movie.body);
 
     });
     // .catch(console.error);
@@ -75,14 +78,15 @@ app.get('/movies', function (req, res) {
 
 class Movies {
   constructor(data) {
-    this.homepage = data.homepage;
-    this.genres = data.genres.name;
+
     this.original_title = data.original_title;
     this.poster_path = data.poster_path;
     this.overview = data.overview;
     this.popularity = data.popularity;
     this.release_date = data.release_date;
-    this.spoken_languages = data.spoken_languages.english_name;
+    this.vote_count = data.vote_count;
+
+
 
 
   }
