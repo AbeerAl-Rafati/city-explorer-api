@@ -63,8 +63,8 @@ Actual time needed to complete: i think this time is engouht
 Name of feature: connect movie api
 Estimate of time needed to complete: ##
 
-Start time: 7-5-2021 3:30 am
+Start time: 7-5-2021 10:30 am
 
-Finish time: 7-5-2021 
+Finish time: 7-5-2021 12:13 am
 
 Actual time needed to complete: i think this time is engouht 
