@@ -1,35 +1,70 @@
 # city-explorer-api 
 
-
-# Project Name
-
-**Author**: Your Name Goes Here
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Author**: Abeer AlRafati
+**Version**: 1.0.0 
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
-
+this app will allow you to extract the zip code of any city you print in the form and also will show a map spot to this city.  
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+you only need to open the link deployed of the website and enter location yoy want to show the results.
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+this app build by reactjs with axios and bootstrap libraries using locationiq API.
 
-## Change Log
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+![pic](screenshot.jpeg)
 
 ## Credit and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+
+resources used:
+
+[link to LocationIQ API!](https://locationiq.com/)
+[link to TMDB API!](https://www.themoviedb.org/)
+
+[link to Express!](https://www.npmjs.com/package/express)
+[link to cors!](https://www.npmjs.com/package/cors)
+[link to dotenv!](https://www.npmjs.com/package/dotenv)
+
+
+
+
+
 
 -------------------------------
-Name of feature: ________________________________
+Name of feature: create a server
+Estimate of time needed to complete: ##
 
-Estimate of time needed to complete: _____
+Start time: 3-5-2021 3:30 am
 
-Start time: _____
+Finish time: 3-5-2021 4:20 am
 
-Finish time: _____
+Actual time needed to complete: i think this time is engouht  
 
-Actual time needed to complete: _____
+----------------------------
+Name of feature: send the data from the server to the frontend App
+Estimate of time needed to complete: ##
+
+Start time: 4-5-2021 9:30 pm
+
+Finish time: 4-5-2021 10:30 pm
+
+Actual time needed to complete: i think this time is engouht  
+
+-----------------------------
+Name of feature: connect the weather with api
+Estimate of time needed to complete: ##
+
+Start time: 5-5-2021 9:30 pm
+
+Finish time: 5-5-2021 10:30 pm
+
+Actual time needed to complete: i think this time is engouht 
+
+--------------------------------
+Name of feature: connect movie api
+Estimate of time needed to complete: ##
+
+Start time: 7-5-2021 10:30 am
+
+Finish time: 7-5-2021 12:13 am
+
+Actual time needed to complete: i think this time is engouht 
